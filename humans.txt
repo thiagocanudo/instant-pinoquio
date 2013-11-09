@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Thiago Canudo
+    www.thiagocanudo.com.br
+
+# THANKS
+
+    Shrek
+
+# TECHNOLOGY COLOPHON
+
+	Bootstrap
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr

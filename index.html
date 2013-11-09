@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <title>Instant Pinóquio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Instant Pinóquio - As lendárias falas do Pinóquio no Filme Shrek Terceiro">
+    <meta name="author" content="Thiago Canudo">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/main.css?20131109" rel="stylesheet">
+
+    <meta property="og:title" content="Instant Pinóquio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.thiagocanudo.com.br/instant-pinoquio/" />
+    <meta property="og:image" content="http://thiagocanudo.com.br/instant-pinoquio/img/logo-fb.png" />
+    <meta property="og:site_name" content="http://www.thiagocanudo.com.br/instant-pinoquio" />
+    <meta property="og:description" content="As lendárias falas do Pinóquio no Filme Shrek Terceiro. Não seria impreciso supor, com algum grau de incerteza, que você curtiu essa página!" />   
+    <link href='http://fonts.googleapis.com/css?family=Tauri|Fjalla+One' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="icon" type="image/png" href="http://thiagocanudo.com.br/instant-pinoquio/favicon.ico?v=1">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.thiagocanudo.com.br/instant-pinoquio/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.thiagocanudo.com.br/instant-pinoquio/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.thiagocanudo.com.br/instant-pinoquio/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://www.thiagocanudo.com.br/instant-pinoquio/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="favicon.png">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row-fluid" id="raios">
+          <div id="fan-face">
+             <div class="fb-like" data-href="http://thiagocanudo.com.br/instant-pinoquio/" data-width="100" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+          </div>
+          <img src="img/pinocchio.png" />
+          <div id="fb-root"></div>
+          <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=545019978889209";
+          fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>           
+      </div>
+
+      <ul class="row-fluid lista">
+        <li class="span2"><a class="lightText button medium round red" onclick="document.getElementById('impreciso').play()">Play</a><p>Não seria impreciso supor...</p></li>
+        <li class="span2"><a class="lightText button medium round green" onclick="document.getElementById('de-jeito-nenhum').play()""">Play</a><p>E de jeito nenhum...</p></li>
+        <li class="span2"><a class="lightText button medium round orange" onclick="document.getElementById('nao-sei').play()">Play</a><p>Olha e não sei onde não está.</p></li>
+          <li class="span2"><a class="lightText button medium round orange" onclick="document.getElementById('se-la-nao-fosse-mesmo').play()">Play</a><p>Se lá não fosse mesmo onde...</p></li>
+          <li class="span2"><a class="lightText button medium round red" onclick="document.getElementById('pelo-contrario').play()">Play</a><p>Pelo contrário...</p></li>
+        <li class="span2"><a class="lightText button medium round red" onclick="document.getElementById('roupa-intima').play()">Play</a><p>Estou usando roupa íntima feminina</p></li>
+      </ul>
+      <ul class="row-fluid lista">  
+        <li class="span2"><a class="lightText button medium round orange" onclick="document.getElementById('e-uma-tanguinha').play()">Play</a><p>É uma tanguinha!!!</p></li>
+        <li class="span2"><a class="lightText button medium round green" onclick="document.getElementById('claro-que-nao-estou').play()""">Play</a><p>É claro que não estou</p></li> 
+        <li class="span2"><a class="lightText button medium round blue" onclick="document.getElementById('nao').play()">Play</a><p>Nãããooo!!!</p></li>
+        <li class="span2"><a class="lightText button medium round green" onclick="document.getElementById('ah').play()">Play</a><p>Ahhhh!!!</p></li>
+        <li class="span2"><a class="lightText button medium round blue" onclick="document.getElementById('quem-gosta').play()">Play</a><p>Quem gosta de mim é ela!!!</p></li>
+        <li class="span2"><a class="lightText button medium round blue" onclick="document.getElementById('o-que-eu-falo').play()">Play</a><p>O que eu falo?</p></div> 
+      </ul>
+
+      <hr>
+      <p id="footer">By <a href="http://www.thiagocanudo.com.br/" target="blank">Thiago Canudo</a></p>
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <audio id="pelo-contrario" src="audios/pelo-contrario.ogg"></audio>
+    <audio id="impreciso" src="audios/impreciso.ogg"></audio>
+    <audio id="de-jeito-nenhum" src="audios/de-jeito-nenhum.ogg"></audio>
+    <audio id="se-la-nao-fosse-mesmo" src="audios/se-la-nao-fosse-mesmo.ogg"></audio>
+    <audio id="roupa-intima" src="audios/roupa-intima.ogg"></audio>
+    <audio id="ah" src="audios/ah.ogg"></audio>
+    <audio id="nao" src="audios/nao.ogg"></audio>
+    <audio id="claro-que-nao-estou" src="audios/claro-que-nao-estou.ogg"></audio>
+    <audio id="quem-gosta" src="audios/quem-gosta.ogg"></audio>
+    <audio id="nao-sei" src="audios/nao-sei-onde-ele-nao-esta.ogg"></audio>
+    <audio id="e-uma-tanguinha" src="audios/e-uma-tanguinha.ogg"></audio>
+    <audio id="o-que-eu-falo" src="audios/o-que-eu-falo.ogg"></audio>   
+  </body>
+</html>
